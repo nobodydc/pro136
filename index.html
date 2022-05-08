@@ -1,0 +1,40 @@
+<html>
+<head>
+
+    <title>AI object finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="dark-blue-background-texture-12018606.jpg">
+
+    <center>
+
+        <h1 class="btn btn-primary heading">AI object finder</h1>
+        <br><br>
+        <h2 class="btn btn-warning">The input name which you will give should match the names present in the coco model then only it will the object(s).Type in the text input below 
+        </h2>
+        <br><br>
+        <input id="Name" type="text">
+        <button id="start" class="btn btn-success" onclick="start()">Start</button>
+        <br><br>
+        <h3 id="noofobj" class="btn btn-danger"></h3>
+        <br><br>
+        <h3 id="status" class="btn btn-danger"></h3>
+
+    </center>
+    <div class="footer">
+        Developed by Punyashri Jane
+    </div>
+
+    <script src="main.js"></script>
+
+</body></html>
